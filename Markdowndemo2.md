@@ -8,7 +8,7 @@
 - 外部链接：[百度](https://www.baidu.com)
 - 内部链接  
   - 链接仓库的其他文件：【文字】（绝对路径），当在同一仓库下，可以不加绝对路径，加相对路径即可。如：[Markdowndemo1](Markdowndemo1.md)  
-  - 链接本文档的其他部分：【文字】（本文档位置）。如：[代码块](Markdowndemo2.md#代码块-demo)  
+  - 链接本文档的其他部分：【文字】（本文档位置）。如：[代码块](Markdowndemo2.md#代码块demo)  
 ### 引用式链接
 
 - 内嵌式链接是将链接写到文档的后面，而引用式链接是将链接写在别的地方，如：将链接放到本文档的最后。
@@ -58,6 +58,6 @@ comsole.log(a);
 [百度]:https://www.baidu.com  
 [baidu]:https://www.baidu.com
 [Markdowndemo1]:Markdowndemo1.md
-[代码块]: Markdowndemo2.md#代码块-demo
+[代码块]: Markdowndemo2.md#代码块demo
 [baidu_logo]:https://www.baidu.com/img/bd_logo1.png "百度logo"
 [内部图片]:photo/open.jpg 
