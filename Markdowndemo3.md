@@ -52,7 +52,8 @@ row2左对齐 |row2居中对齐|row2右对齐
     - [x] task1
     - [ ] task2
     - [ ] task3
-  - emoji 表情符两个冒号包围的表情字符可以显示出不同的表情
+    - [x] task4
+  - emoji 表情符两个冒号包围的表情字符可以显示出不同的表情
     - 笑脸 `：smile：`，:smile:  
     - 打钩:white_check_mark:  
   - 表情符号可以访问我在GitHub上找到的一个老师整理的表情符号的文档：
