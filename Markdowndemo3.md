@@ -24,17 +24,26 @@
 
 - 在Markdown语法中实现表格是十分简单且直观的。通过“|”和“-”来实现表格的竖线和横线，因为表格是由这些竖线和横线组成的。
 - 表格里的文字默认是左对齐的，居中对齐是在横线中间加入两个冒号右对齐是在横线右边加一个冒号。如：  
-| 这  | 是   | 表头 |
-|----|:---:|-----:|
-|cell1|cell2dticshihidh|celldgsfifoff3|
-|** row2左对齐 ** |row2居中对齐|row2右对齐|
-|图片|demo[百度]|![图片][logo]|
-|row4|row4|row4|
+
+| 这  | 是   | 表头 |  
+|----|:---:|-----:|  
+|cell1|cell2fgghhdtichhhshihidh|celldghhhjjjjmmsfifoff3|  
+|**row2左对齐** |row2居中对齐|row2右对齐|  
+|图片|demo[百度]|![图片][logo]|  
+|row4|row4|row4|  
 - 精简表格，将左右两头的竖线去掉，效果一样  
- 这  | 是   | 表头 
------  |:---:|-----:
-cell1|cell2dticshihidh|celldgsfifoff3
-row2左对齐 |row2居中对齐|row2右对齐
+表格
+--------
+
+表头1  | 表头2|
+--------- | --------|
+表格单元  | 表格单元 |
+表格单元  | 表格单元 |
+
+ 这  | 是   | 表头   
+-----  |:---:|-----:  
+cell1|cell2dticshihidh|celldgsfifoff3  
+row2左对齐 |row2居中对齐|row2右对齐  
 
 ## GFMdemo
 
