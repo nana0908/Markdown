@@ -1,6 +1,6 @@
-#Markdowndemo2
+# Markdowndemo2
 
-##链接demo
+## 链接demo
 
 链接的语法是【文字】（URL），其中【】和（）均为英文半角
 ### 内嵌式链接
@@ -8,7 +8,7 @@
 - 外部链接：[百度](https://www.baidu.com)
 - 内部链接  
   - 链接仓库的其他文件：【文字】（绝对路径），当在同一仓库下，可以不加绝对路径，加相对路径即可。如：[Markdowndemo1](Markdowndemo1.md)  
-  - 链接本文档的其他部分：【文字】（本文档位置）。如：[代码块](Markdowndemo2.md#代码块-demo)  
+  - 链接本文档的其他部分：【文字】（本文档位置）。如：[代码块](Markdowndemo2.md#代码块demo)  
 ### 引用式链接
 
 - 内嵌式链接是将链接写到文档的后面，而引用式链接是将链接写在别的地方，如：将链接放到本文档的最后。
@@ -17,15 +17,15 @@
 - 也可以给链接起一个别名，和直接用是等价的，如：[百度][baidu]
 - 链接仓库的其他文件，如：[Markdowndemo1]  
 - 链接本文档的其他部分，如：[代码块]  
-##图片demo
-###外部图片 demo
+## 图片demo
+### 外部图片 demo
 
 - 图片与链接的语法很相似，在前面加一个感叹号，**！【图片显示不出来时显示的文字art】（图片的URL 点击到图片浮动的提示文字信息）**，如：![百度图片](https://www.baidu.com/img/bd_logo1.png "百度logo")  
-###仓库内图片
+### 仓库内图片
 
 - 在仓库下建立一个文件夹，将文件下载至文件夹内，语法与外部图片的语法一致，如：![仓库内图片](photo/open.jpg)  
 - 若图片在右边浏览器中显示不出来，右击打开Chrome控制台，定位到图片在哪个位置，从URL中复制地址在电脑文件管理器中打开，将图片添加至相应的位置即可
-###图片的引用式链接
+### 图片的引用式链接
 
 - 外部图片：![百度图片][baidu_logo]  
 - 仓库内图片：![仓库内图片][内部图片] 
@@ -39,8 +39,7 @@
 >>>世上本无所谓好与坏 
 
                                ——《哈姆雷特》  
-
-##代码块demo
+## 代码块demo
 
 - 行内代码：用一个反引号圏起代码，如：  
 这个代码中用来声明变量是`var a = 10`，打印变量内容是`console.log()`函数的调用。
@@ -59,6 +58,6 @@ comsole.log(a);
 [百度]:https://www.baidu.com  
 [baidu]:https://www.baidu.com
 [Markdowndemo1]:Markdowndemo1.md
-[代码块]: Markdowndemo2.md#代码块-demo
+[代码块]: Markdowndemo2.md#代码块demo
 [baidu_logo]:https://www.baidu.com/img/bd_logo1.png "百度logo"
 [内部图片]:photo/open.jpg 
