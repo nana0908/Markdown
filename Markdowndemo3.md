@@ -3,7 +3,7 @@
 ## 水平分隔线demo
 
 - 在HTML语法中有`<hr>（Horizontal Rule）`代表水平分隔线的意思。在Markdown中实现水平分隔线有三种方式
-- 一是用三个‘-’实现，如
+  - 一是用三个‘-’实现，如
   ---
   - 二是用三个‘*’实现，如
   ***
@@ -16,9 +16,10 @@
 <p align = 'center'> hello World!</p>
 - 也可以使用HTML中的语法`<！-- -->`注释，如：
 <!-- 这是注释，这行文字会被忽略 -->
-- 或者用HTML语法插入图片，如：  
-`<img src = 'http://img1.3lian.com/2015/a1/79/d/79.jpg'/>`
+- 或者用HTML语法插入图片，如：  
+`img src = 'http://img1.3lian.com/2015/a1/79/d/79.jpg'
 <img src = 'http://img1.3lian.com/2015/a1/79/d/79.jpg'/>
+
 ## 表格demo
 
 - 在Markdown语法中实现表格是十分简单且直观的。通过“|”和“-”来实现表格的竖线和横线，因为表格是由这些竖线和横线组成的。
