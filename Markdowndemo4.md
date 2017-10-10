@@ -42,26 +42,26 @@
 
 - 打断列表：在两个列表中间加入文字  ,即需要文字段落打断
 如：
-1. item1
-  1. item1.1
-  2. item1.2
+1. item1  
+  1.item1.1  
+  2.item1.2  
 2. item2  
 
 
-列表2
-3. item3
-4. item4
+列表2  
+1. item3  
+2. item4  
 - 如何续上打断的列表，在文字前进行缩进四个空格，  
 如：
-1. item1
-  1. item1.1
-  2. item1.2
+1. item1  
+  1.item1.1  
+  2.item1.2  
 2. item2  
 
 
     列表2
-3. item3
-4. item4
+1. item3
+2. item4
 <!-- 以下是该文档所用到的链接 -->
 [百度_链接]:https://www.baidu.com
 [萌萌]:http://scimg.jb51.net/allimg/150624/14-150624143232592.jpg
